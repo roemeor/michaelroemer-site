@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Research lines of Michael Römer: decisions under uncertainty, health care analytics, network models and decision diagrams, language models for optimization, environment and sustainability, logistics.">
+
+<title>Research – Michael Römer</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-488d36d0f03247cf3e7aab73ea7719ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32.png">
+<link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+
+
+<meta property="og:title" content="Research">
+<meta property="og:description" content="Research lines of Michael Römer: decisions under uncertainty, health care analytics, network models and decision diagrams, language models for optimization, environment and sustainability, logistics.">
+<meta property="og:image" content="https://michaelroemer.eu/images/portrait.png">
+<meta property="og:site_name" content="Michael Römer">
+<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="500">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Michael Römer</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./transfer.html"> 
+<span class="menu-text">Transfer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/roemeor/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://pub.uni-bielefeld.de/person/199793018"> <i class="bi bi-journal-text" role="img" aria-label="PUB – Bielefeld University">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:michael.roemer@uni-bielefeld.de"> <i class="bi bi-envelope" role="img" aria-label="E-Mail">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="bi bi-lightbulb"></span> Research</h1>
+                  <div>
+        <div class="description">
+          Research lines of Michael Römer: decisions under uncertainty, health care analytics, network models and decision diagrams, language models for optimization, environment and sustainability, logistics.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#decisions-under-uncertainty" id="toc-decisions-under-uncertainty" class="nav-link active" data-scroll-target="#decisions-under-uncertainty"><span class="bi bi-graph-up-arrow"></span> Decisions under uncertainty</a></li>
+  <li><a href="#network-models-and-decision-diagrams" id="toc-network-models-and-decision-diagrams" class="nav-link" data-scroll-target="#network-models-and-decision-diagrams"><span class="bi bi-diagram-3"></span> Network models and decision diagrams</a></li>
+  <li><a href="#health-care-analytics" id="toc-health-care-analytics" class="nav-link" data-scroll-target="#health-care-analytics"><span class="bi bi-hospital"></span> Health care analytics</a></li>
+  <li><a href="#language-models-for-optimization" id="toc-language-models-for-optimization" class="nav-link" data-scroll-target="#language-models-for-optimization"><span class="bi bi-chat-square-text"></span> Language models for optimization</a></li>
+  <li><a href="#environment-and-sustainability" id="toc-environment-and-sustainability" class="nav-link" data-scroll-target="#environment-and-sustainability"><span class="bi bi-tree"></span> Environment and sustainability</a></li>
+  <li><a href="#logistics" id="toc-logistics" class="nav-link" data-scroll-target="#logistics"><span class="bi bi-truck"></span> <span class="bi bi-rocket-takeoff"></span> Logistics and supply chains</a></li>
+  <li><a href="#competitions" id="toc-competitions" class="nav-link" data-scroll-target="#competitions"><span class="bi bi-trophy"></span> Competitions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>My research sits at the intersection of Operations Research and Machine Learning. I develop <strong>decision support methods</strong> for planning problems in which uncertainty matters, and apply them in health care, logistics and environmental decision-making. A common methodological thread is the use of <strong>structured models</strong>, such as networks and decision diagrams, that are expressive enough for real-world problems and at the same time amenable to learning. Many papers belong to more than one of the lines below; papers are listed newest first. For funded projects, see <a href="./projects.html">Projects</a>.</p>
+<section id="decisions-under-uncertainty" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="decisions-under-uncertainty"><span class="bi bi-graph-up-arrow"></span> Decisions under uncertainty</h2>
+<p>Many planning decisions have to be made before demand, arrivals or durations are known. I work on two-stage, robust and data-driven approaches that account for this uncertainty, on quantifying the value of information, and on decision-focused learning, where predictive models are trained with respect to the decisions they inform.</p>
+<div class="keypapers">
+<ul>
+<li>Winkelmann, Ulrich, Römer, Langrock &amp; Jahnke (2026). Managing inventories for perishable e-groceries: The value of probabilistic information. <em>PLOS One.</em> <a href="https://doi.org/10.1371/journal.pone.0343935">doi</a></li>
+<li>Witteborg, Wetzel &amp; Römer (2026). An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem. <em>Operations Research, Data Analytics and Logistics</em>, in press. <a href="https://doi.org/10.1016/j.ordal.2026.200515">doi</a></li>
+<li>Römer &amp; Bodur (2026). Learning-Guided State Partitioning for Decision Diagram Relaxations in Two-Stage Robust Optimization. <em>Data Science meets Optimisation workshop @ IJCAI 2026.</em></li>
+<li>Hagemann, Porrmann &amp; Römer (2025). Multi-activity shift scheduling under uncertainty: The value of shift flexibility. <em>European Journal of Operational Research.</em> <a href="https://doi.org/10.1016/j.ejor.2024.12.028">doi</a></li>
+<li>Witteborg, Borgstedt, Rehberg, Wetzel &amp; Römer (2025). Supporting ICU Admission Scheduling under Uncertainty. <em>HICSS 2025</em> (Best Paper nomination). <a href="https://doi.org/10.24251/HICSS.2025.402">doi</a></li>
+<li>Luhede, Yaqine, Bahmanbijari, Römer &amp; Upmann (2024). The Value of Information in Water Quality Monitoring and Management. <em>Ecological Economics.</em> <a href="https://doi.org/10.1016/j.ecolecon.2024.108128">doi</a></li>
+<li>Römer, Hagemann &amp; Porrmann (2023). Predict, Tune and Optimize for Data-Driven Shift Scheduling with Uncertain Demands. <em>LION 17.</em> <a href="https://doi.org/10.1007/978-3-031-44505-7_18">doi</a></li>
+</ul>
+</div>
+</section>
+<section id="network-models-and-decision-diagrams" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="network-models-and-decision-diagrams"><span class="bi bi-diagram-3"></span> Network models and decision diagrams</h2>
+<p>State-expanded networks encode complex rules, for example for shifts and rosters, in the structure of a graph, so that the remaining optimization model stays simple. Decision diagrams provide relaxations and bounds for discrete optimization. My work develops such models and uses machine learning to make them smaller and their bounds stronger.</p>
+<div class="keypapers">
+<ul>
+<li>Rudich, Cappart, López-Ibáñez, Römer &amp; Rousseau (2026). An Exact Framework for Solving the Space-Time Dependent TSP. <em>INFORMS Journal on Computing.</em> <a href="https://doi.org/10.1287/ijoc.2024.0866">doi</a></li>
+<li>Römer (2024). Block-Based State-Expanded Network Models for Multi-Activity Shift Scheduling. <em>Journal of Scheduling.</em> <a href="https://doi.org/10.1007/s10951-023-00789-3">doi</a></li>
+<li>Nafar &amp; Römer (2024). Using Clustering to Strengthen Decision Diagram Bounds for Discrete Optimization. <em>AAAI 2024.</em> <a href="https://doi.org/10.1609/aaai.v38i8.28647">doi</a></li>
+<li>Nafar &amp; Römer (2024). Strengthening Relaxed Decision Diagrams for Maximum Independent Set Problem: Novel Variable Ordering and Merge Heuristics. <em>CP 2024.</em> <a href="https://doi.org/10.4230/LIPIcs.CP.2024.21">doi</a></li>
+<li>Porrmann &amp; Römer (2021). Learning to Reduce State-Expanded Networks for Multi-activity Shift Scheduling. <em>CPAIOR 2021.</em> <a href="https://doi.org/10.1007/978-3-030-78230-6_24">doi</a></li>
+</ul>
+</div>
+</section>
+<section id="health-care-analytics" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="health-care-analytics"><span class="bi bi-hospital"></span> Health care analytics</h2>
+<p>Hospitals have to plan beds, staff and treatments while patient arrivals and lengths of stay are uncertain. Together with hospital partners and colleagues from medicine, I develop simulation-, learning- and optimization-based decision support for such problems: forecasting and managing intensive care occupancy, scheduling ICU admissions, scheduling clinical pathways, and rostering staff. I have also worked with clinicians and computer scientists on algorithm-based rehabilitation after cochlear implantation.</p>
+<div class="keypapers">
+<ul>
+<li>Witteborg, Wetzel &amp; Römer (2026). An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem. <em>Operations Research, Data Analytics and Logistics</em>, in press. <a href="https://doi.org/10.1016/j.ordal.2026.200515">doi</a></li>
+<li>Hagemann, Porrmann &amp; Römer (2025). Multi-activity shift scheduling under uncertainty: The value of shift flexibility. <em>European Journal of Operational Research.</em> <a href="https://doi.org/10.1016/j.ejor.2024.12.028">doi</a></li>
+<li>Witteborg, Borgstedt, Rehberg, Wetzel &amp; Römer (2025). Supporting ICU Admission Scheduling under Uncertainty. <em>HICSS 2025</em> (Best Paper nomination). <a href="https://doi.org/10.24251/HICSS.2025.402">doi</a></li>
+<li>Eichler, …, Römer, …, Todt (2022). Algorithm-Based Hearing and Speech Therapy Rehabilitation after Cochlear Implantation. <em>Brain Sciences.</em> <a href="https://doi.org/10.3390/brainsci12050580">doi</a></li>
+<li>Witteborg, Borgstedt, Günther, Jansen &amp; Römer (2022). Monte-Carlo Simulation Based on Patient-Individual Distributions for Supporting Intensive Care Occupancy Management. <em>HICSS 2022.</em> <a href="https://doi.org/10.24251/HICSS.2022.451">doi</a></li>
+<li>Schwarz, Römer &amp; Mellouli (2019). A data-driven hierarchical MILP approach for scheduling clinical pathways: A real-world case study from a German university hospital. <em>Business Research.</em> <a href="https://doi.org/10.1007/s40685-019-00102-z">doi</a></li>
+</ul>
+</div>
+<p>I organized the 2024 annual meeting of the GOR working group “Health Care Management” in Bielefeld and won first place in the Second International Nurse Rostering Competition (INRC-II) in 2015.</p>
+</section>
+<section id="language-models-for-optimization" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="language-models-for-optimization"><span class="bi bi-chat-square-text"></span> Language models for optimization</h2>
+<p>Formulating an optimization model is often the bottleneck for using optimization in practice. In the project <a href="./projects.html#optimizationchat">OptimizationChat</a> we investigate how large language models can help to formalize and solve industrial planning problems through natural-language interaction. Related work uses language models to discover heuristics for combinatorial optimization.</p>
+<div class="keypapers">
+<ul>
+<li>Hottung, Berto, Hua, …, Römer, …, Tierney (2026). VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems. <em>Transactions on Machine Learning Research</em> (TMLR). <a href="https://doi.org/10.48550/arXiv.2510.07073">arXiv</a></li>
+</ul>
+</div>
+</section>
+<section id="environment-and-sustainability" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="environment-and-sustainability"><span class="bi bi-tree"></span> Environment and sustainability</h2>
+<p>Environmental decisions, such as where to monitor, what to protect and how to weigh ecological against economic goals, are made under substantial uncertainty and with limited budgets. Together with environmental economists and marine biodiversity researchers, I study the value of information in environmental monitoring, trade-off analysis for environmental decisions, and, in a DFG project, decision-focused learning for planning marine protected areas.</p>
+<div class="keypapers">
+<ul>
+<li>Post, Römer &amp; Khanjani-Shiraz (2025). Strengthening Environmental Trade-off Analysis using Socio-economic Weight Restrictions. SSRN working paper. <a href="https://dx.doi.org/10.2139/ssrn.5184847">doi</a></li>
+<li>Luhede, Yaqine, Bahmanbijari, Römer &amp; Upmann (2024). The Value of Information in Water Quality Monitoring and Management. <em>Ecological Economics.</em> <a href="https://doi.org/10.1016/j.ecolecon.2024.108128">doi</a></li>
+<li>Valipour, Babapour-Azar, Nourollahi, Khanjani-Shiraz &amp; Römer (2024). Risk-driven optimal scheduling of renewable-oriented energy hub under demand response program and energy storages. <em>Sustainable Cities and Society.</em> <a href="https://doi.org/10.1016/j.scs.2024.105448">doi</a></li>
+</ul>
+</div>
+</section>
+<section id="logistics" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="logistics"><span class="bi bi-truck"></span> <span class="bi bi-rocket-takeoff"></span> Logistics and supply chains</h2>
+<p>Many of my projects start from operational problems in logistics and retail: service network design, inventory routing, storage assignment and inventory management in e-grocery fulfilment, truck loading, and most recently large-scale supply network optimization in the automotive industry. Logistics also extends into space: a time-space network approach for delivery scheduling won first place in the “Delivery Scheduling” category of the ESA/GECCO Space Optimisation Competition 2022, and our exact framework for the space-time dependent TSP (INFORMS Journal on Computing) solves asteroid routing problems, in which a spacecraft visits a sequence of asteroids (<a href="https://www.space.com/space-exploration/asteroid-comet-missions/scientists-just-solved-a-tricky-asteroid-hopping-spacecraft-riddle">Space.com</a>).</p>
+<div class="keypapers">
+<ul>
+<li>Rudich, Cappart, López-Ibáñez, Römer &amp; Rousseau (2026). An Exact Framework for Solving the Space-Time Dependent TSP. <em>INFORMS Journal on Computing.</em> <a href="https://doi.org/10.1287/ijoc.2024.0866">doi</a></li>
+<li>Winkelmann, Ulrich, Römer, Langrock &amp; Jahnke (2026). Managing inventories for perishable e-groceries: The value of probabilistic information. <em>PLOS One.</em> <a href="https://doi.org/10.1371/journal.pone.0343935">doi</a></li>
+<li>Winkelmann, Tolkmitt, Ulrich &amp; Römer (2024). Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. <em>Flexible Services and Manufacturing Journal.</em> <a href="https://doi.org/10.1007/s10696-024-09549-7">doi</a></li>
+<li>Neumann-Saavedra, Crainic, Gendron, Mattfeld &amp; Römer (2020). Integrating Resource Management in Service Network Design for Bike-Sharing Systems. <em>Transportation Science.</em> <a href="https://doi.org/10.1287/trsc.2019.0950">doi</a></li>
+<li>Schulte, Römer &amp; Tierney (2020). Cyclical Inventory Routing with Unsplittable Pick-Up and Deliveries. <em>ICCL 2020.</em> <a href="https://doi.org/10.1007/978-3-030-59747-4_16">doi</a></li>
+</ul>
+</div>
+</section>
+<section id="competitions" class="level2 project research-box">
+<h2 class="anchored" data-anchor-id="competitions"><span class="bi bi-trophy"></span> Competitions</h2>
+<div class="cv-box">
+<ul>
+<li><span class="when">2022</span> 1st place, ESA/GECCO Space Optimisation Competition, “Delivery Scheduling”</li>
+<li><span class="when">2016</span> 1st place, ACP Torpedo Scheduling Challenge</li>
+<li><span class="when">2015</span> 1st place, Second International Nurse Rostering Competition (INRC-II)</li>
+</ul>
+</div>
+</section>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/michaelroemer\.eu");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Michael Römer · Bielefeld University</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./impressum.html">
+<p>Impressum</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./datenschutz.html">
+<p>Datenschutz</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

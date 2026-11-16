@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "transfer.html",
+    "href": "transfer.html",
+    "title": " Transfer",
+    "section": "",
+    "text": "Viele Planungsaufgaben in der Praxis sind zu komplex für Tabellenkalkulation und Erfahrungswissen allein: Dienstpläne, Bettenbelegung, Lager, Touren, Verladung. Hinzu kommt Unsicherheit – Nachfrage, Patientenaufkommen oder Ausfälle sind nicht genau vorhersehbar. Genau hier setzt meine Arbeit an: Ich verbinde mathematische Optimierung, Machine Learning und Simulation zu Entscheidungsunterstützung, die in realen Prozessen funktioniert."
+  },
+  {
+    "objectID": "transfer.html#typische-fragestellungen",
+    "href": "transfer.html#typische-fragestellungen",
+    "title": " Transfer",
+    "section": "Typische Fragestellungen",
+    "text": "Typische Fragestellungen\n\n\n Gesundheitswesen\nWie viele Intensivbetten werden morgen gebraucht? Wie lassen sich Aufnahmen, Behandlungspfade und Dienstpläne so planen, dass Engpässe seltener werden?\n\n\n Personaleinsatzplanung\nSchicht- und Dienstpläne, die Bedarf, Regeln und Wünsche berücksichtigen – und robust bleiben, wenn der Bedarf schwankt.\n\n\n Logistik und Handel\nLagerplatzzuordnung, Bestellpolitiken für verderbliche Ware, Verlade- und Tourenplanung.\n\n\n Optimierung per Sprache\nIm Projekt OptimizationChat untersuchen wir, wie große Sprachmodelle helfen, Planungsprobleme aus der Industrie zu formulieren und zu lösen."
+  },
+  {
+    "objectID": "transfer.html#wie-eine-zusammenarbeit-aussehen-kann",
+    "href": "transfer.html#wie-eine-zusammenarbeit-aussehen-kann",
+    "title": " Transfer",
+    "section": "Wie eine Zusammenarbeit aussehen kann",
+    "text": "Wie eine Zusammenarbeit aussehen kann\n\nAbschlussarbeiten: Bachelor- und Masterarbeiten zu einer konkreten Fragestellung aus Ihrem Unternehmen – ein guter erster Schritt mit überschaubarem Aufwand.\nProjektseminare: Studierendenteams bearbeiten über ein Semester eine Fragestellung mit Ihren Daten und stellen die Ergebnisse bei Ihnen vor.\nForschungskooperationen: Gemeinsame Projekte, auch als geförderte Verbundvorhaben (z. B. EFRE, DFG) oder mit externen Promotionen.\nVorträge und Workshops: Einführungen in KI-gestützte Planung unter Unsicherheit für Fach- und Führungskräfte."
+  },
+  {
+    "objectID": "transfer.html#erfahrung-aus-der-praxis",
+    "href": "transfer.html#erfahrung-aus-der-praxis",
+    "title": " Transfer",
+    "section": "Erfahrung aus der Praxis",
+    "text": "Erfahrung aus der Praxis\n\nKooperationen mit Kliniken zur datengestützten Kapazitätsplanung auf Intensivstationen und zur Planung von Behandlungspfaden\nProjekte mit Unternehmen aus Automobilindustrie, Lebensmittelhandel, Möbelindustrie und Luftfahrt\nOptimizationChat: Verbundprojekt mit dem Fraunhofer IOSB-INA und mehr als zehn Unternehmen aus der Region (EFRE / Industrie.IN.NRW, 2025–2028)\nRegelmäßige Projektseminare und Abschlussarbeiten mit Partnern aus Industrie, Handel, Gesundheitswesen und Sozialwirtschaft\nLangjährige Erfahrung in der Entwicklung von Planungssoftware, u. a. zur Crewplanung im Luftverkehr"
+  },
+  {
+    "objectID": "transfer.html#aktuelle-vorträge-und-workshops",
+    "href": "transfer.html#aktuelle-vorträge-und-workshops",
+    "title": " Transfer",
+    "section": "Aktuelle Vorträge und Workshops",
+    "text": "Aktuelle Vorträge und Workshops\n\n\n\n\n\n\n\n\n2026\nKI-gestützte Planung unter Unsicherheit – Workshopreihe „DenkBar“ des ThinkTank OWL in Bielefeld, Minden, Löhne, Gütersloh und Detmold\n\n\n2025\nEntscheidungsfindung unter Unsicherheit – Workshop, Innovation Festival, Campus Bielefeld\n\n\n2025\nEffizienter Umgang mit knappen Ressourcen unter Unsicherheit – Risikokonferenz 2025, Schloss Ettersburg\n\n\n2023\nWas kann KI zur Personaleinsatzplanung beitragen? – Innovation.Gesundheit.OWL und Forschungstag Medizin, Universität Bielefeld"
+  },
+  {
+    "objectID": "transfer.html#kontakt",
+    "href": "transfer.html#kontakt",
+    "title": " Transfer",
+    "section": "Kontakt",
+    "text": "Kontakt\nSie haben eine Planungsfrage, bei der Sie Unterstützung suchen? Ich freue mich über eine kurze Nachricht an michael.roemer@uni-bielefeld.de – gern auch mit einer groben Skizze des Problems."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": " Research",
+    "section": "",
+    "text": "My research sits at the intersection of Operations Research and Machine Learning. I develop decision support methods for planning problems in which uncertainty matters, and apply them in health care, logistics and environmental decision-making. A common methodological thread is the use of structured models, such as networks and decision diagrams, that are expressive enough for real-world problems and at the same time amenable to learning. Many papers belong to more than one of the lines below; papers are listed newest first. For funded projects, see Projects."
+  },
+  {
+    "objectID": "research.html#decisions-under-uncertainty",
+    "href": "research.html#decisions-under-uncertainty",
+    "title": " Research",
+    "section": " Decisions under uncertainty",
+    "text": "Decisions under uncertainty\nMany planning decisions have to be made before demand, arrivals or durations are known. I work on two-stage, robust and data-driven approaches that account for this uncertainty, on quantifying the value of information, and on decision-focused learning, where predictive models are trained with respect to the decisions they inform.\n\n\nWinkelmann, Ulrich, Römer, Langrock & Jahnke (2026). Managing inventories for perishable e-groceries: The value of probabilistic information. PLOS One. doi\nWitteborg, Wetzel & Römer (2026). An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem. Operations Research, Data Analytics and Logistics, in press. doi\nRömer & Bodur (2026). Learning-Guided State Partitioning for Decision Diagram Relaxations in Two-Stage Robust Optimization. Data Science meets Optimisation workshop @ IJCAI 2026.\nHagemann, Porrmann & Römer (2025). Multi-activity shift scheduling under uncertainty: The value of shift flexibility. European Journal of Operational Research. doi\nWitteborg, Borgstedt, Rehberg, Wetzel & Römer (2025). Supporting ICU Admission Scheduling under Uncertainty. HICSS 2025 (Best Paper nomination). doi\nLuhede, Yaqine, Bahmanbijari, Römer & Upmann (2024). The Value of Information in Water Quality Monitoring and Management. Ecological Economics. doi\nRömer, Hagemann & Porrmann (2023). Predict, Tune and Optimize for Data-Driven Shift Scheduling with Uncertain Demands. LION 17. doi"
+  },
+  {
+    "objectID": "research.html#network-models-and-decision-diagrams",
+    "href": "research.html#network-models-and-decision-diagrams",
+    "title": " Research",
+    "section": " Network models and decision diagrams",
+    "text": "Network models and decision diagrams\nState-expanded networks encode complex rules, for example for shifts and rosters, in the structure of a graph, so that the remaining optimization model stays simple. Decision diagrams provide relaxations and bounds for discrete optimization. My work develops such models and uses machine learning to make them smaller and their bounds stronger.\n\n\nRudich, Cappart, López-Ibáñez, Römer & Rousseau (2026). An Exact Framework for Solving the Space-Time Dependent TSP. INFORMS Journal on Computing. doi\nRömer (2024). Block-Based State-Expanded Network Models for Multi-Activity Shift Scheduling. Journal of Scheduling. doi\nNafar & Römer (2024). Using Clustering to Strengthen Decision Diagram Bounds for Discrete Optimization. AAAI 2024. doi\nNafar & Römer (2024). Strengthening Relaxed Decision Diagrams for Maximum Independent Set Problem: Novel Variable Ordering and Merge Heuristics. CP 2024. doi\nPorrmann & Römer (2021). Learning to Reduce State-Expanded Networks for Multi-activity Shift Scheduling. CPAIOR 2021. doi"
+  },
+  {
+    "objectID": "research.html#health-care-analytics",
+    "href": "research.html#health-care-analytics",
+    "title": " Research",
+    "section": " Health care analytics",
+    "text": "Health care analytics\nHospitals have to plan beds, staff and treatments while patient arrivals and lengths of stay are uncertain. Together with hospital partners and colleagues from medicine, I develop simulation-, learning- and optimization-based decision support for such problems: forecasting and managing intensive care occupancy, scheduling ICU admissions, scheduling clinical pathways, and rostering staff. I have also worked with clinicians and computer scientists on algorithm-based rehabilitation after cochlear implantation.\n\n\nWitteborg, Wetzel & Römer (2026). An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem. Operations Research, Data Analytics and Logistics, in press. doi\nHagemann, Porrmann & Römer (2025). Multi-activity shift scheduling under uncertainty: The value of shift flexibility. European Journal of Operational Research. doi\nWitteborg, Borgstedt, Rehberg, Wetzel & Römer (2025). Supporting ICU Admission Scheduling under Uncertainty. HICSS 2025 (Best Paper nomination). doi\nEichler, …, Römer, …, Todt (2022). Algorithm-Based Hearing and Speech Therapy Rehabilitation after Cochlear Implantation. Brain Sciences. doi\nWitteborg, Borgstedt, Günther, Jansen & Römer (2022). Monte-Carlo Simulation Based on Patient-Individual Distributions for Supporting Intensive Care Occupancy Management. HICSS 2022. doi\nSchwarz, Römer & Mellouli (2019). A data-driven hierarchical MILP approach for scheduling clinical pathways: A real-world case study from a German university hospital. Business Research. doi\n\n\nI organized the 2024 annual meeting of the GOR working group “Health Care Management” in Bielefeld and won first place in the Second International Nurse Rostering Competition (INRC-II) in 2015."
+  },
+  {
+    "objectID": "research.html#language-models-for-optimization",
+    "href": "research.html#language-models-for-optimization",
+    "title": " Research",
+    "section": " Language models for optimization",
+    "text": "Language models for optimization\nFormulating an optimization model is often the bottleneck for using optimization in practice. In the project OptimizationChat we investigate how large language models can help to formalize and solve industrial planning problems through natural-language interaction. Related work uses language models to discover heuristics for combinatorial optimization.\n\n\nHottung, Berto, Hua, …, Römer, …, Tierney (2026). VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems. Transactions on Machine Learning Research (TMLR). arXiv"
+  },
+  {
+    "objectID": "research.html#environment-and-sustainability",
+    "href": "research.html#environment-and-sustainability",
+    "title": " Research",
+    "section": " Environment and sustainability",
+    "text": "Environment and sustainability\nEnvironmental decisions, such as where to monitor, what to protect and how to weigh ecological against economic goals, are made under substantial uncertainty and with limited budgets. Together with environmental economists and marine biodiversity researchers, I study the value of information in environmental monitoring, trade-off analysis for environmental decisions, and, in a DFG project, decision-focused learning for planning marine protected areas.\n\n\nPost, Römer & Khanjani-Shiraz (2025). Strengthening Environmental Trade-off Analysis using Socio-economic Weight Restrictions. SSRN working paper. doi\nLuhede, Yaqine, Bahmanbijari, Römer & Upmann (2024). The Value of Information in Water Quality Monitoring and Management. Ecological Economics. doi\nValipour, Babapour-Azar, Nourollahi, Khanjani-Shiraz & Römer (2024). Risk-driven optimal scheduling of renewable-oriented energy hub under demand response program and energy storages. Sustainable Cities and Society. doi"
+  },
+  {
+    "objectID": "research.html#logistics",
+    "href": "research.html#logistics",
+    "title": " Research",
+    "section": "  Logistics and supply chains",
+    "text": "Logistics and supply chains\nMany of my projects start from operational problems in logistics and retail: service network design, inventory routing, storage assignment and inventory management in e-grocery fulfilment, truck loading, and most recently large-scale supply network optimization in the automotive industry. Logistics also extends into space: a time-space network approach for delivery scheduling won first place in the “Delivery Scheduling” category of the ESA/GECCO Space Optimisation Competition 2022, and our exact framework for the space-time dependent TSP (INFORMS Journal on Computing) solves asteroid routing problems, in which a spacecraft visits a sequence of asteroids (Space.com).\n\n\nRudich, Cappart, López-Ibáñez, Römer & Rousseau (2026). An Exact Framework for Solving the Space-Time Dependent TSP. INFORMS Journal on Computing. doi\nWinkelmann, Ulrich, Römer, Langrock & Jahnke (2026). Managing inventories for perishable e-groceries: The value of probabilistic information. PLOS One. doi\nWinkelmann, Tolkmitt, Ulrich & Römer (2024). Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. Flexible Services and Manufacturing Journal. doi\nNeumann-Saavedra, Crainic, Gendron, Mattfeld & Römer (2020). Integrating Resource Management in Service Network Design for Bike-Sharing Systems. Transportation Science. doi\nSchulte, Römer & Tierney (2020). Cyclical Inventory Routing with Unsplittable Pick-Up and Deliveries. ICCL 2020. doi"
+  },
+  {
+    "objectID": "research.html#competitions",
+    "href": "research.html#competitions",
+    "title": " Research",
+    "section": " Competitions",
+    "text": "Competitions\n\n\n2022 1st place, ESA/GECCO Space Optimisation Competition, “Delivery Scheduling”\n2016 1st place, ACP Torpedo Scheduling Challenge\n2015 1st place, Second International Nurse Rostering Competition (INRC-II)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": " Projects",
+    "section": "",
+    "text": "2025–2028 · European Regional Development Fund (EFRE), Industrie.IN.NRW\nMathematische Optimierung auf Basis natürlichsprachlicher Interaktion: Industrierelevante Probleme formalisieren und lösen. Turning a real planning problem into an optimization model usually requires an expert dialogue between practitioners and modelers. OptimizationChat investigates how large language models can support and partly automate this dialogue, so that industrial planning problems can be formalized and solved through natural-language interaction. Joint project with Fraunhofer IOSB-INA and more than ten regional companies; I lead the Bielefeld sub-project.\nProject page\n\n\n\n\n2024–2027 · German Research Foundation (DFG), project no. 540478491\nPlanning marine protected areas requires predictions, for example of species distributions, that feed into an optimization model. Instead of training these predictions for accuracy alone, the project trains them for the quality of the resulting protection decisions. The approach embeds learned models into a heuristic solution procedure and tunes both jointly, without requiring derivatives, and can handle uncertainty in constraints as well as in the objective. Principal investigator, jointly with Kevin Tierney.\nGEPRIS"
+  },
+  {
+    "objectID": "projects.html#current-projects",
+    "href": "projects.html#current-projects",
+    "title": " Projects",
+    "section": "",
+    "text": "2025–2028 · European Regional Development Fund (EFRE), Industrie.IN.NRW\nMathematische Optimierung auf Basis natürlichsprachlicher Interaktion: Industrierelevante Probleme formalisieren und lösen. Turning a real planning problem into an optimization model usually requires an expert dialogue between practitioners and modelers. OptimizationChat investigates how large language models can support and partly automate this dialogue, so that industrial planning problems can be formalized and solved through natural-language interaction. Joint project with Fraunhofer IOSB-INA and more than ten regional companies; I lead the Bielefeld sub-project.\nProject page\n\n\n\n\n2024–2027 · German Research Foundation (DFG), project no. 540478491\nPlanning marine protected areas requires predictions, for example of species distributions, that feed into an optimization model. Instead of training these predictions for accuracy alone, the project trains them for the quality of the resulting protection decisions. The approach embeds learned models into a heuristic solution procedure and tunes both jointly, without requiring derivatives, and can handle uncertainty in constraints as well as in the objective. Principal investigator, jointly with Kevin Tierney.\nGEPRIS"
+  },
+  {
+    "objectID": "projects.html#completed-projects",
+    "href": "projects.html#completed-projects",
+    "title": " Projects",
+    "section": "Completed projects",
+    "text": "Completed projects\n\nCombining Graphical Optimization Models and Machine Learning for Planning and Scheduling under Uncertainty\n2019–2025 · NRW Return Programme (Rückkehrprogramm) of the State of North Rhine-Westphalia\nThe NRW Return Programme supports researchers returning from abroad in building their own independent research group in North Rhine-Westphalia. This grant funded the establishment of my Decision Analytics group at Bielefeld University. The project combines graphical optimization models (state-expanded networks and decision diagrams) with machine learning to solve planning and scheduling problems under uncertainty. It laid the foundation for most of my current research lines, from learning-enhanced network models and decision diagram bounds to data-driven shift scheduling and decision support in health care. Sole principal investigator.\nNetwork models and decision diagrams Decisions under uncertainty\n\n\n\nAn AI-based System for the Rehabilitation of Cochlear Implant Patients\n2020–2022 · Anschubfonds Medizinische Forschung, Bielefeld University\nInterdisciplinary project with Franz Kummert, Ingo Todt and Christoph Kayser on algorithm-based hearing and speech therapy after cochlear implantation; I led one of the sub-projects.\nPublication in Brain Sciences\n\n\n\nGeneric and Efficient Personnel Scheduling Approaches Based on State-Expanded Network Formulations\n2018–2019 · DFG research fellowship, project no. 398911053 · University of Toronto\nA general method for building state-expanded network models for personnel scheduling, framed as dynamic programming, together with exact and heuristic techniques to keep the networks small. The project also led to new work on decision diagrams.\nGEPRIS\n\n\n\nNew Coupling of Machine Learning and Optimization\n2017–2018 · IVADO Postdoctoral Fellowship, Montréal\nPostdoctoral fellowship of the Institute for Data Valorization at Polytechnique Montréal."
+  },
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": " Impressum",
+    "section": "",
+    "text": "Prof. Dr. Michael Römer\nc/o Universität Bielefeld\nFakultät für Wirtschaftswissenschaften\nUniversitätsstraße 25\n33615 Bielefeld\nDeutschland"
+  },
+  {
+    "objectID": "impressum.html#angaben-gemäß-5-ddg",
+    "href": "impressum.html#angaben-gemäß-5-ddg",
+    "title": " Impressum",
+    "section": "",
+    "text": "Prof. Dr. Michael Römer\nc/o Universität Bielefeld\nFakultät für Wirtschaftswissenschaften\nUniversitätsstraße 25\n33615 Bielefeld\nDeutschland"
+  },
+  {
+    "objectID": "impressum.html#kontakt",
+    "href": "impressum.html#kontakt",
+    "title": " Impressum",
+    "section": "Kontakt",
+    "text": "Kontakt\nTelefon: +49 521 106-67889\nE-Mail: michael.roemer@uni-bielefeld.de"
+  },
+  {
+    "objectID": "impressum.html#verantwortlich-für-den-inhalt-nach-18-abs.-2-mstv",
+    "href": "impressum.html#verantwortlich-für-den-inhalt-nach-18-abs.-2-mstv",
+    "title": " Impressum",
+    "section": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+    "text": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV\nProf. Dr. Michael Römer, Anschrift wie oben."
+  },
+  {
+    "objectID": "impressum.html#hinweis",
+    "href": "impressum.html#hinweis",
+    "title": " Impressum",
+    "section": "Hinweis",
+    "text": "Hinweis\nDies ist eine private Website. Sie wird nicht im Auftrag der Universität Bielefeld betrieben; offizielle Informationen finden Sie auf den Seiten der Fakultät für Wirtschaftswissenschaften."
+  },
+  {
+    "objectID": "impressum.html#haftung-für-links",
+    "href": "impressum.html#haftung-für-links",
+    "title": " Impressum",
+    "section": "Haftung für Links",
+    "text": "Haftung für Links\nDiese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Links umgehend entfernen."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": " Curriculum Vitae",
+    "section": "",
+    "text": "Since 2025 Acting Professor, Chair of Decision and Operation Technologies\n2024 Acting Professor, Chair of Controlling and Production Management\nSince 2019 Assistant Professor (Juniorprofessor) of Decision Analytics\n\n\n\n\n\n \n\n\n\n\n2017–2019 Postdoctoral Fellow, Polytechnique Montréal and Rotman School of Management, University of Toronto\n\n\n\n\n\n\n\n\n\n\n2016 Visiting researcher, RealOpt group, Institut de Mathématiques de Bordeaux\n\n\n\n\n\n\n\n\n\n\n2005–2019 Research assistant and postdoc, Chair of Business Information Systems and Operations Research"
+  },
+  {
+    "objectID": "cv.html#positions",
+    "href": "cv.html#positions",
+    "title": " Curriculum Vitae",
+    "section": "",
+    "text": "Since 2025 Acting Professor, Chair of Decision and Operation Technologies\n2024 Acting Professor, Chair of Controlling and Production Management\nSince 2019 Assistant Professor (Juniorprofessor) of Decision Analytics\n\n\n\n\n\n \n\n\n\n\n2017–2019 Postdoctoral Fellow, Polytechnique Montréal and Rotman School of Management, University of Toronto\n\n\n\n\n\n\n\n\n\n\n2016 Visiting researcher, RealOpt group, Institut de Mathématiques de Bordeaux\n\n\n\n\n\n\n\n\n\n\n2005–2019 Research assistant and postdoc, Chair of Business Information Systems and Operations Research"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": " Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\nMartin Luther University Halle-Wittenberg\n\n2014 Dr. rer. pol.Thesis: Consistency in Airline Crew Planning Processes: Modeling, Optimization, and Applications\n\n\n\n\n\n\n\n\nPaderborn University\n\n2005 Diplom in Business Information Systems (Wirtschaftsinformatik)Thesis: Ein interaktives Entscheidungsunterstützungssystem zum Airline Fleet Assignment"
+  },
+  {
+    "objectID": "cv.html#service-to-the-community",
+    "href": "cv.html#service-to-the-community",
+    "title": " Curriculum Vitae",
+    "section": "Service to the community",
+    "text": "Service to the community\n\n\nSince 2026 Coordinator, EURO Working Group “Data Science meets Optimisation”\nSince 2025 Spokesperson, Department of Management Science & Business Analytics, Bielefeld University\nSince 2023 Board member, Bielefeld Graduate School of Economics and Management\nSince 2022 Member, Center for Uncertainty Studies (CeUS), Bielefeld University\n2026 Stream chair “Data Science meets Optimization”, IFORS 2026, Vienna\n2026 Co-organizer, QUAMU (Quantifying and Managing Uncertainty) Focus Group Workshop “Data Science and Machine Learning”, Bielefeld\n2025 Talk at the QUAMU (Quantifying and Managing Uncertainty) Research Seminar, Bielefeld University\n2025 Co-organizer, International Conference on Operations Research (OR 2025), Bielefeld\n2024 Organizer, annual meeting of the GOR working group “Health Care Management”, Bielefeld\n2023 Organizer, EURO PhD School “Data Science meets Combinatorial Optimisation”, Bielefeld\nProgram committees AAAI, CP, CPAIOR, LION"
+  },
+  {
+    "objectID": "datenschutz.html",
+    "href": "datenschutz.html",
+    "title": " Datenschutzerklärung",
+    "section": "",
+    "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\nProf. Dr. Michael Römer\nc/o Universität Bielefeld, Fakultät für Wirtschaftswissenschaften\nUniversitätsstraße 25, 33615 Bielefeld\nE-Mail: michael.roemer@uni-bielefeld.de"
+  },
+  {
+    "objectID": "datenschutz.html#verantwortlicher",
+    "href": "datenschutz.html#verantwortlicher",
+    "title": " Datenschutzerklärung",
+    "section": "",
+    "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\nProf. Dr. Michael Römer\nc/o Universität Bielefeld, Fakultät für Wirtschaftswissenschaften\nUniversitätsstraße 25, 33615 Bielefeld\nE-Mail: michael.roemer@uni-bielefeld.de"
+  },
+  {
+    "objectID": "datenschutz.html#überblick",
+    "href": "datenschutz.html#überblick",
+    "title": " Datenschutzerklärung",
+    "section": "2. Überblick",
+    "text": "2. Überblick\nDiese Website ist eine rein informative, private Website. Sie verwendet keine Cookies, keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von Drittanbietern (etwa Schriftarten, Skripte oder eingebettete Videos) nach. Alle Bestandteile der Seite werden vom Webhoster ausgeliefert."
+  },
+  {
+    "objectID": "datenschutz.html#hosting-und-server-logfiles",
+    "href": "datenschutz.html#hosting-und-server-logfiles",
+    "title": " Datenschutzerklärung",
+    "section": "3. Hosting und Server-Logfiles",
+    "text": "3. Hosting und Server-Logfiles\nDiese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub technisch notwendige Daten, insbesondere Ihre IP-Adresse, Datum und Uhrzeit des Zugriffs, die aufgerufene Seite sowie Informationen zu Browser und Betriebssystem. Dies ist erforderlich, um die Website auszuliefern und ihre Sicherheit zu gewährleisten.\nRechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; mein berechtigtes Interesse liegt in der sicheren und zuverlässigen Bereitstellung der Website. Dabei kann eine Übermittlung personenbezogener Daten in die USA stattfinden. Die Übermittlung erfolgt auf Grundlage des Angemessenheitsbeschlusses der Europäischen Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), soweit der Anbieter danach zertifiziert ist, im Übrigen auf Grundlage von Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub."
+  },
+  {
+    "objectID": "datenschutz.html#kontakt-per-e-mail",
+    "href": "datenschutz.html#kontakt-per-e-mail",
+    "title": " Datenschutzerklärung",
+    "section": "4. Kontakt per E-Mail",
+    "text": "4. Kontakt per E-Mail\nWenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre Angaben (E-Mail-Adresse, Name, Inhalt der Nachricht), um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO bzw. – wenn Ihre Anfrage auf einen Vertrag oder eine Kooperation abzielt – Art. 6 Abs. 1 lit. b DSGVO. Die E-Mail-Adresse wird von der Universität Bielefeld bereitgestellt. Ihre Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen."
+  },
+  {
+    "objectID": "datenschutz.html#externe-links",
+    "href": "datenschutz.html#externe-links",
+    "title": " Datenschutzerklärung",
+    "section": "5. Externe Links",
+    "text": "5. Externe Links\nDiese Website enthält Links zu anderen Websites (z. B. Google Scholar, ORCID, Verlage, Universität Bielefeld). Erst wenn Sie einen solchen Link anklicken, werden Daten an den jeweiligen Anbieter übermittelt; für die dortige Verarbeitung ist der jeweilige Anbieter verantwortlich."
+  },
+  {
+    "objectID": "datenschutz.html#ihre-rechte",
+    "href": "datenschutz.html#ihre-rechte",
+    "title": " Datenschutzerklärung",
+    "section": "6. Ihre Rechte",
+    "text": "6. Ihre Rechte\nSie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) sowie Widerspruch gegen eine Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21). Wenden Sie sich dazu an die oben genannte Adresse.\nAußerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren, zum Beispiel bei der für mich zuständigen Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.\nStand: Oktober 2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Römer",
+    "section": "",
+    "text": "Optimization meets learning for complex decisions under uncertainty\nActing Professor · Chair of Decision and Operation Technologies · Bielefeld University\n\n E-Mail  Google Scholar  ORCID  PUB  LinkedIn"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Michael Römer",
+    "section": "Research",
+    "text": "Research\n\n\n Decisions under uncertainty\nTwo-stage and data-driven optimization; decision-focused learning.\n\n\n Health care analytics\nDecision support for hospitals: ICU occupancy and admissions, clinical pathways, staff scheduling.\n\n\n Network models and decision diagrams\nCompact, learnable representations of scheduling and combinatorial optimization problems.\n\n\n Language models for optimization\nFrom problem descriptions to optimization models and new heuristics.\n\n\n Environment and sustainability\nValue of information and decision-focused learning for environmental monitoring and marine conservation.\n\n\n  Logistics and supply chains\nFulfilment, inventory, routing and loading, large-scale supply networks, and delivery scheduling for space logistics.\n\n\nMore about my research →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Michael Römer",
+    "section": "News",
+    "text": "News\n\n10/2026 VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems accepted in Transactions on Machine Learning Research (TMLR)\n10/2026 Poster Vorhersage Intensivstationärer Auslastung mit Machine Learning – VISTA-ML accepted at DIVI 2026\n10/2026 An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem accepted in Operations Research, Data Analytics and Logistics\n07/2026 Stream chair “Data Science meets Optimization” at IFORS 2026, Vienna\n2026 Coordinator of the EURO Working Group “Data Science meets Optimisation”\n2026 Combining OR and Data Science voted best Master’s course of the faculty\n2026 Papers accepted at LION 20 and the DSO workshop @ IJCAI 2026\n2026 An Exact Framework for Solving the Space-Time Dependent TSP published in INFORMS Journal on Computing"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Michael Römer",
+    "section": "Contact",
+    "text": "Contact\nFaculty of Business Administration and Economics\nBielefeld University\n33615 Bielefeld, Germany\n+49 521 106-67889\nmichael.roemer@uni-bielefeld.de"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": " Publications",
+    "section": "",
+    "text": "Also on  Google Scholar ·  ORCID · PUB – Bielefeld University"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": " Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\nHottung, A., Berto, F., Hua, C., Gast Zepeda, M., Wetzel, D., Römer, M., Ye, H., Zago, D., Poli, M., Massaroli, S., Park, J., Tierney, K. (2026). VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems. Transactions on Machine Learning Research (TMLR). Preprint: arXiv:2510.07073\nWitteborg, A. H., Wetzel, D., Römer, M. (2026). An anticipatory multi-stage MIP approach for the Integrated Healthcare Timetabling Problem. Operations Research, Data Analytics and Logistics, in press, 200515. doi:10.1016/j.ordal.2026.200515\nRudich, I., Cappart, Q., López-Ibáñez, M., Römer, M., Rousseau, L.-M. (2026). An Exact Framework for Solving the Space-Time Dependent TSP. INFORMS Journal on Computing, ahead of print. doi:10.1287/ijoc.2024.0866\nWinkelmann, D., Ulrich, M., Römer, M., Langrock, R., Jahnke, H. (2026). Managing inventories for perishable e-groceries: The value of probabilistic information. PLOS One 21(4): e0343935. doi:10.1371/journal.pone.0343935\nHagemann, F., Porrmann, T., Römer, M. (2025). Multi-activity shift scheduling under uncertainty: The value of shift flexibility. European Journal of Operational Research 323(3), 988–998. doi:10.1016/j.ejor.2024.12.028\nvon Enzberg, S., Weller, J., Pöhler, P., Kühn, A., Römer, M., Dumitrescu, R. (2024). Künstliche Intelligenz in der Produktionsplanung und -steuerung. Zeitschrift für wirtschaftlichen Fabrikbetrieb 119(5), 349–355. doi:10.1515/zwf-2024-1065\nWinkelmann, D., Tolkmitt, F. J., Ulrich, M., Römer, M. (2024). Integrated storage assignment for an e-grocery fulfilment centre: Accounting for day-of-week demand patterns. Flexible Services and Manufacturing Journal. doi:10.1007/s10696-024-09549-7\nValipour, E., Babapour-Azar, A., Nourollahi, R., Khanjani-Shiraz, R., Römer, M. (2024). Risk-driven optimal scheduling of renewable-oriented energy hub under demand response program and energy storages: A novel Entropic value-at-risk modeling. Sustainable Cities and Society 107: 105448. doi:10.1016/j.scs.2024.105448\nLuhede, A., Yaqine, H., Bahmanbijari, R., Römer, M., Upmann, T. (2024). The Value of Information in Water Quality Monitoring and Management. Ecological Economics. doi:10.1016/j.ecolecon.2024.108128\nKhanjani Shiraz, R., Hosseini Nodeh, Z., Babapour-Azar, A., Römer, M., Pardalos, P. M. (2024). Distributionally robust joint chance-constrained programming: Wasserstein metric and second-order moment constraints. Information Sciences 654: 119812. doi:10.1016/j.ins.2023.119812\nRömer, M. (2024). Block-Based State-Expanded Network Models for Multi-Activity Shift Scheduling. Journal of Scheduling 27(4), 341–361. doi:10.1007/s10951-023-00789-3\nEichler, T., Rötz, W., Kayser, C., Bröhl, F., Römer, M., Witteborg, A. H., Kummert, F., Sandmeier, T., Schulte, C., Stolz, P., Meyer, K., Sudhoff, H., Todt, I. (2022). Algorithm-Based Hearing and Speech Therapy Rehabilitation after Cochlear Implantation. Brain Sciences 12(5). doi:10.3390/brainsci12050580\nNeumann-Saavedra, B. A., Crainic, T. G., Gendron, B., Mattfeld, D. C., Römer, M. (2020). Integrating Resource Management in Service Network Design for Bike-Sharing Systems. Transportation Science 54(5), 1251–1271. doi:10.1287/trsc.2019.0950\nSchwarz, K., Römer, M., Mellouli, T. (2019). A data-driven hierarchical MILP approach for scheduling clinical pathways: A real-world case study from a German university hospital. Business Research 12(2), 597–636. doi:10.1007/s40685-019-00102-z"
+  },
+  {
+    "objectID": "publications.html#edited-volumes",
+    "href": "publications.html#edited-volumes",
+    "title": " Publications",
+    "section": "Edited volumes",
+    "text": "Edited volumes\n\n\nAmen, M., Römer, M., Tierney, K. (eds.) (2026). Operations Research Proceedings 2025. Operations Research Proceedings, Springer, in press."
+  },
+  {
+    "objectID": "publications.html#conference-proceedings-peer-reviewed",
+    "href": "publications.html#conference-proceedings-peer-reviewed",
+    "title": " Publications",
+    "section": "Conference proceedings (peer-reviewed)",
+    "text": "Conference proceedings (peer-reviewed)\n\n\nSchnepel, J., Witteborg, A., Römer, M., Rehberg, S., Borgstedt, R. (2026). Vorhersage Intensivstationärer Auslastung mit Machine Learning – VISTA-ML. Accepted (poster), DIVI 2026, abstract EP/12/09, 147. doi:10.32745/DIVI.2026.0147-0147\nRömer, M., Bodur, M. (2026). Learning-Guided State Partitioning for Decision Diagram Relaxations in Two-Stage Robust Optimization. Accepted, Workshop Data Science meets Optimisation 2026 @ IJCAI, Bremen.\nNafar, M., Römer, M., Xi, L. (2026). A Clustering-Based Variable Ordering Framework for Relaxed Decision Diagrams for Maximum Weighted Independent Set Problem. Accepted, Proceedings of the 20th Learning and Intelligent Optimization Conference (LION 20). Preprint: arXiv:2512.15198\nWitteborg, A., Borgstedt, R., Rehberg, S., Wetzel, D., Römer, M. (2025). Supporting ICU Admission Scheduling under Uncertainty. Proceedings of the 58th Hawaii International Conference on System Sciences (HICSS). doi:10.24251/HICSS.2025.402 (Best Paper nomination)\nNafar, M., Römer, M. (2024). Strengthening Relaxed Decision Diagrams for Maximum Independent Set Problem: Novel Variable Ordering and Merge Heuristics. 30th International Conference on Principles and Practice of Constraint Programming (CP 2024), LIPIcs 307, 21:1–21:17. doi:10.4230/LIPIcs.CP.2024.21\nNafar, M., Römer, M. (2024). Lookahead, Merge, and Reduce for Compiling Approximate Decision Diagrams. CPAIOR 2024, LNCS 14743, 74–82. doi:10.1007/978-3-031-60599-4_5\nNafar, M., Römer, M. (2024). Using Clustering to Strengthen Decision Diagram Bounds for Discrete Optimization. Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI 2024), 8082–8089. doi:10.1609/aaai.v38i8.28647\nRömer, M., Hagemann, F., Porrmann, T. (2023). Predict, Tune and Optimize for Data-Driven Shift Scheduling with Uncertain Demands. LION 17, LNCS 14286. doi:10.1007/978-3-031-44505-7_18\nWitteborg, A., Borgstedt, R., Günther, M., Jansen, G., Römer, M. (2022). Monte-Carlo Simulation Based on Patient-Individual Distributions for Supporting Intensive Care Occupancy Management. Proceedings of the 55th Hawaii International Conference on System Sciences (HICSS), 3699–3708. doi:10.24251/HICSS.2022.451\nPorrmann, T., Römer, M. (2021). Learning to Reduce State-Expanded Networks for Multi-activity Shift Scheduling. CPAIOR 2021, LNCS 12735. doi:10.1007/978-3-030-78230-6_24\nSchulte, J., Römer, M., Tierney, K. (2020). Cyclical Inventory Routing with Unsplittable Pick-Up and Deliveries. Computational Logistics (ICCL 2020), LNCS 12433. doi:10.1007/978-3-030-59747-4_16\nRömer, M., Cire, A. A., Rousseau, L.-M. (2018). A Local Search Framework for Compiling Relaxed Decision Diagrams. CPAIOR 2018, LNCS 10848, 512–520. doi:10.1007/978-3-319-93031-2_36\nNeumann-Saavedra, B. A., Crainic, T. G., Gendron, B., Mattfeld, D. C., Römer, M. (2016). Service Network Design of Bike Sharing Systems with Resource Constraints. Computational Logistics, LNCS 9855, 352–366. doi:10.1007/978-3-319-44896-1_23\nRömer, M., Mellouli, T. (2016). Future Demand Uncertainty in Personnel Scheduling: Investigating Deterministic Lookahead Policies. Proceedings of the 30th European Conference on Modelling and Simulation, 502–507. doi:10.7148/2016-0502\nRömer, M., Mellouli, T. (2016). A Direct MILP Approach Based on State-Expanded Network Flows and Anticipation for Multi-Stage Nurse Rostering under Uncertainty. PATAT 2016: Proceedings of the 11th International Conference of the Practice and Theory of Automated Timetabling, 549–552.\nHelbig, K., Römer, M., Mellouli, T. (2015). A Clinical Pathway Mining Approach to Enable Scheduling of Hospital Relocations and Treatment Services. Business Process Management (BPM), LNCS 9253, 242–250. doi:10.1007/978-3-319-23063-4_17\nRömer, M. (2012). Modeling with Variable Parameters: Robust and Generalized Linear Programming and their Relations. Proceedings of the International Conference on Applied Mathematical Optimization and Modelling (APMOD), 58–63.\nRömer, M., Mellouli, T. (2012). Pairing Optimization for Hierarchical Airline Crews. Conference on Advanced Systems for Public Transport (CASPT 12), Santiago de Chile.\nRömer, M., Mellouli, T. (2011). Handling Rest Requirements and Preassigned Activities in Airline Crew Pairing Optimization. Network Optimization, LNCS 6701, 643–656. doi:10.1007/978-3-642-21527-8_72\nRömer, M., Mellouli, T. (2010). Integrating Medium and Short Term Decisions in Airline Crew Planning. Seventh Triennial Symposium on Transportation Analysis (TRISTAN VII), Tromsø, 353–356."
+  },
+  {
+    "objectID": "publications.html#preprints-and-working-papers",
+    "href": "publications.html#preprints-and-working-papers",
+    "title": " Publications",
+    "section": "Preprints and working papers",
+    "text": "Preprints and working papers\n\n\nPost, T., Römer, M., Khanjani-Shiraz, R. (2025). Strengthening Environmental Trade-off Analysis using Socio-economic Weight Restrictions. SSRN working paper 5184847. doi:10.2139/ssrn.5184847\n\n\n\n\n\n\n\n\nNoteEarlier reports and articles (2010–2015)\n\n\n\n\n\n\n\nRömer, M. (2015). Von Piloten und Pflegekräften – Die Second International Nurse Rostering Competition. OR News 55, 6–10.\nRömer, M. (2015). Case Studies in Medium- and Short-Term Airline Crew Planning: Establishing Consistency in Optimization Approaches. Diskussionsbeiträge zu Wirtschaftsinformatik und Operations Research Nr. 36, MLU Halle-Wittenberg.\nRömer, M. (2015). Optimization in Airline Crew Planning and Scheduling: State of the Art and Generic Network Flow-Based Approaches. Diskussionsbeiträge zu Wirtschaftsinformatik und Operations Research Nr. 35, MLU Halle-Wittenberg.\nRömer, M. (2015). Airline Crew Planning Processes: A Hierarchical Planning Perspective. Diskussionsbeiträge zu Wirtschaftsinformatik und Operations Research Nr. 34, MLU Halle-Wittenberg.\nRömer, M. (2010). Von der Komplexmethode zur Robusten Optimierung und zurück. In: Steglich, M., Mellouli, T. (eds.): Beiträge zum Festkolloquium „Angewandte Optimierung”, Diskussionsbeiträge zu Wirtschaftsinformatik und Operations Research Nr. 23, 38–61."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": " Teaching",
+    "section": "",
+    "text": "I teach Operations Research, algorithms and decision analytics in the Bachelor’s, Master’s and doctoral programs of the Faculty of Business Administration and Economics. My courses combine modeling with hands-on programming in Python, and many include projects with partners from practice."
+  },
+  {
+    "objectID": "teaching.html#teaching-awards",
+    "href": "teaching.html#teaching-awards",
+    "title": " Teaching",
+    "section": "Teaching awards",
+    "text": "Teaching awards\n\nBest Master’s course of the faculty, summer term 2026: Combining OR and Data Science\nBest Bachelor’s course of the faculty, winter terms 2025/26 and 2023/24: Algorithmen und Datenstrukturen\nNominated by students for the university-wide Karl-Peter-Grotemeyer Prize for excellent teaching (2024)\nTop 3 courses of the faculty in 2023, 2024 and 2025"
+  },
+  {
+    "objectID": "teaching.html#courses-at-bielefeld-university",
+    "href": "teaching.html#courses-at-bielefeld-university",
+    "title": " Teaching",
+    "section": "Courses at Bielefeld University",
+    "text": "Courses at Bielefeld University\n\n\n\n\n\n\n\n\nMSc\nCombining OR and Data Science · Operations Research Models · Decision Analytics Project / Projekt Makerthon (with industry partners)\n\n\nBSc\nAlgorithmen und Datenstrukturen · Entscheidungstheorie · Einführung in Operations Research · Programming for Data Analytics · Data Analytics\n\n\nPhD\nDecision-Focused Analytics · Dynamic Programming Models\n\n\n\n\nEarlier, I taught courses on simulation, network optimization and transport logistics, and Operations Research at Martin Luther University Halle-Wittenberg, TU Braunschweig and Otto von Guericke University Magdeburg."
+  },
+  {
+    "objectID": "teaching.html#theses",
+    "href": "teaching.html#theses",
+    "title": " Teaching",
+    "section": "Theses",
+    "text": "Theses\nI supervise Bachelor’s and Master’s theses in Operations Research, optimization and decision analytics, often in cooperation with companies and institutions. If you are interested, please get in touch."
+  }
+]
